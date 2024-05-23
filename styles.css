@@ -1,0 +1,87 @@
+body{
+    background-image:url("bg.jpg");
+    background-size:305%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-shadow: 2px 3px 4px black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin: 0.2em;
+    font-size: 2rem;
+}
+
+h3{
+    margin: 0.2em;
+    font-size: 1rem;
+
+}
+
+h4{
+    margin: 0.2em;
+    font-size: 1rem;
+
+}
+
+button{
+    margin: 1em;
+    font-size: 1.5rem;
+    background-color: rgb(247, 140, 0);
+    border: none;
+    border-bottom: solid black;
+    border-right: solid black;
+    border-radius: 20px;
+    font-weight: 700;
+}
+button:hover{
+    background-color: rgb(160, 67, 5);
+    color: azure;
+}
+
+#imagesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: min-content;
+
+}
+
+#computerCard, #userCard{
+    margin: 0px auto;
+}
+
+img{
+    width: 22vh;
+    justify-self: center;
+    margin: 0.2em auto;
+}
+
+#modal{
+    display: none;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(109, 18, 109);
+    position: fixed;
+    margin: auto;
+    height: 60vh;
+    width: 90vw;
+    border-radius: 20px;
+
+}
+
+#modalBtn{
+    
+    margin-top: 0.5em;
+    margin-left: 16.5em;
+    width: 2em;
+}
